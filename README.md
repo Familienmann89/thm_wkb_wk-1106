@@ -39,7 +39,7 @@ Fehlt einer der notwendigen Scheine, ist die Teilnahme nicht möglich.
 | **M3** | Finale Abgabe (Doku + Code) | **Fr, 25. September 2026 — harte Deadline** |
 | **M4** | Präsentation der Implementierung | **Oktober 2026** (Terminumfrage nach M3) |
 
-Reviews zu M1/M2 finden in einem Meeting (vor Ort oder virtuell) mit der gesamten Gruppe statt. **Unterlagen ca. 2 Tage vorab per Mail an den Betreuer.** Termine vereinbart der/die Projektleiter:in rechtzeitig.
+Reviews zu M1/M2 finden in einem Meeting (vor Ort oder virtuell) mit der gesamten Gruppe statt. **Die Unterlagen liegen im Repository und werden nicht zusätzlich per Mail verschickt.** Spätestens 2 Tage vor dem Termin sollten alle Unterlagen im Repo aktualisiert sein; gerne mit einem Tag (`v0.1.0-spec` für M1, `v0.2.0-arch` für M2) markiert. Termine vereinbart der/die Projektleiter:in rechtzeitig per Mail mit dem Betreuer.
 
 ---
 
