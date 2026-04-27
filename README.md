@@ -69,13 +69,15 @@ Zusätzlich schickt der/die Projektleiter:in eine kurze Mail an den Betreuer mit
 
 ## Team
 
-| Name | Studiengang | Rolle | E-Mail (THM) |
-|---|---|---|---|
-| Max Mustermann | WI B.Sc. | Projektleiter:in | max.mustermann@mnd.thm.de |
-| Erika Musterfrau | WI B.Sc. | Software Architect | … |
-| … | … | … | … |
+| Name | Studiengang | Rolle |
+|---|---|---|
+| Max Mustermann | WI B.Sc. | Projektleiter:in |
+| Erika Musterfrau | WI B.Sc. | Software Architect |
+| … | … | … |
 
-> **Datenschutz-Hinweis:** Bei einem **öffentlichen** Repository werden hier **keine Matrikel-Nummern** veröffentlicht. Die finale Mitgliederliste mit Matrikel-Nummern wird per Mail im Rahmen der M3-Abgabe an den Betreuer übermittelt.
+**Team-Kontakt (für die Veranstaltungsorganisation):** _<THM-Mail der/des Projektleiter:in>_
+
+> **Datenschutz-Hinweis:** Bei einem **öffentlichen** Repository werden hier weder Matrikel-Nummern noch persönliche Telefonnummern veröffentlicht. Die individuellen E-Mail-Adressen der Mitglieder müssen ebenfalls **nicht** publiziert werden — eine einzige Team-Kontakt-Adresse (z.B. THM-Mail der Projektleitung) reicht. Die verbindliche Mitgliederliste mit Matrikel-Nummern wird per Mail im Rahmen der M3-Abgabe an den Betreuer übermittelt.
 
 **Rollen-Empfehlung (frei änderbar):** Projektleiter:in, Software Architect, Spec/Requirements Lead, Implementation Lead, QA/Test Lead, DevOps/Build Lead.
 
@@ -245,7 +247,7 @@ refactor(api): extract validation into middleware
 ### 8.3 Kontinuierliche Historie
 
 - Commits über die gesamte Projektlaufzeit verteilt — **nicht ein Big-Bang-Push am Abgabetag**.
-- Mehrere Autoren in der Historie sichtbar (jedes Gruppenmitglied committet mit korrekt konfiguriertem Git-Namen und THM-Mail).
+- Mehrere Autoren in der Historie sichtbar — jedes Gruppenmitglied committet unter einem **konsistenten, eindeutig zuordenbaren Git-Namen**, sodass Beiträge zugeordnet werden können. Welche E-Mail-Adresse Sie für Ihre Commits verwenden (THM-Mail, private Mail, GitHub-`noreply`-Adresse), bleibt Ihnen überlassen.
 - Branches und Pull/Merge Requests sind willkommen, aber nicht zwingend.
 
 Eine Abgabe mit nur wenigen Commits oder nur einem Autor wird als **Indiz für externe Komplettentwicklung (z.B. Bolt, Lovable, v0)** gewertet und führt zu deutlichem Punktabzug in Säule 3 — bis hin zum Nicht-Bestehen, wenn der Code-Walkthrough zeigt, dass die Gruppe das System nicht selbst verstanden und gebaut hat.
@@ -254,6 +256,7 @@ Eine Abgabe mit nur wenigen Commits oder nur einem Autor wird als **Indiz für e
 
 - API-Keys, Tokens, Passwörter, `.env`-Dateien mit Geheimnissen
 - Personenbezogene Daten Dritter
+- **Personenbezogene Daten der eigenen Gruppenmitglieder über das Notwendige hinaus** — keine Matrikel-Nummern, keine privaten Telefonnummern. E-Mail-Adressen einzelner Mitglieder sind nicht erforderlich; eine Team-Kontakt-Adresse genügt.
 - Große Binärdateien ohne Notwendigkeit
 
 Geeignete `.gitignore` von Anfang an verwenden.
