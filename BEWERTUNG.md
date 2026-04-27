@@ -44,6 +44,16 @@
 | Formale Aspekte (Verzeichnisse, Quellen, etc.) | 10 |  |  |
 | Aufbau / roter Faden | 10 |  |  |
 | **Summe SPEC** | **100** | **____** |  |
+| Korrektur: ungeprüfte KI-Generierung erkennbar (0 / −10 / −20) | −20 |  |  |
+| **Summe SPEC inkl. Korrektur** |  | **____** |  |
+
+> Hinweis ungeprüfte KI-Generierung: Abzug, wenn das Dokument offensichtlich KI-generiert ist und keine erkennbare Sorgfalt, Prüfung oder Überarbeitung erfolgt ist. Typische Symptome:
+> - Halluzinationen, generische Floskeln ohne Projektbezug, Widersprüche zur eigenen Projektidee
+> - Tabellen, die Offensichtliches wiederholen oder Inhalte aus dem Fließtext nochmal in Spalten zerlegen, ohne Mehrwert — bläht das Dokument unnötig auf
+> - Diagramme, die mit minimalem Zusatzaufwand sauber lesbar wären, aber unbearbeitet im Default-Layout (überlappende Kanten, Beschriftungen quer durchs Bild, willkürliche Anordnung) abgeliefert werden
+> - durchgängige Boilerplate-Strukturen ohne inhaltliche Substanz
+>
+> Skala: 0 = unauffällig, −10 = deutliche Anzeichen, −20 = durchgängig ohne Eigenleistung. Greift unabhängig von der Disclosure-Pflicht (Abschnitt 9.1 README).
 
 ## 4. Säule 2 — Architektur (ARCH)
 
@@ -61,6 +71,17 @@
 | Formale Aspekte (Verzeichnisse, Quellen, etc.) | 5 |  |  |
 | Aufbau / roter Faden | 5 |  |  |
 | **Summe ARCH** | **100** | **____** |  |
+| Korrektur: ungeprüfte KI-Generierung erkennbar (0 / −10 / −20) | −20 |  |  |
+| **Summe ARCH inkl. Korrektur** |  | **____** |  |
+
+> Hinweis ungeprüfte KI-Generierung: Abzug, wenn das Dokument offensichtlich KI-generiert ist und keine erkennbare Sorgfalt, Prüfung oder Überarbeitung erfolgt ist. Typische Symptome:
+> - Halluzinationen, generische Floskeln ohne Projektbezug, Widersprüche zur eigenen Projektidee
+> - ADRs ohne echten Trade-off (Standard-Begründungen ohne Bezug zur konkreten Entscheidung)
+> - Komponenten-, Sequenz- oder Verteilungsdiagramme, die mit minimalem Zusatzaufwand sauber lesbar wären, aber unbearbeitet im Default-Layout (überlappende Kanten, Beschriftungen quer durchs Bild, willkürliche Anordnung) abgeliefert werden
+> - Diagramme, die nicht zum Code oder zur Spec passen
+> - Tabellen, die Offensichtliches wiederholen oder Inhalte aus dem Fließtext nochmal in Spalten zerlegen, ohne Mehrwert — bläht das Dokument unnötig auf
+>
+> Skala: 0 = unauffällig, −10 = deutliche Anzeichen, −20 = durchgängig ohne Eigenleistung. Greift unabhängig von der Disclosure-Pflicht (Abschnitt 9.1 README).
 
 ## 5. Säule 3 — Implementierung & Präsentation (IMPL/PRÄS)
 
@@ -105,9 +126,9 @@ _<Kurzbegründung der Note, Stärken/Schwächen, Hinweise für Folgesemester>_
 ## 8. Berechnungs-Hinweis
 
 ```
-S1 = Punkte SPEC      (0–100)
-S2 = Punkte ARCH      (0–100)
-S3 = Punkte IMPL/PRÄS (0–100)
+S1 = Punkte SPEC inkl. Korrektur      (max. 100, Untergrenze 0)
+S2 = Punkte ARCH inkl. Korrektur      (max. 100, Untergrenze 0)
+S3 = Punkte IMPL/PRÄS inkl. Korrektur (max. 100, Untergrenze 0)
 
 Hürde:    min(S1, S2, S3) >= 50    sonst: Modulnote = 5,0
 ∅ Punkte: (S1 + S2 + S3) / 3

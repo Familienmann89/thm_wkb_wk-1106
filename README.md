@@ -324,6 +324,7 @@ Die detaillierte Punktverteilung steht im **Bewertungs-Template** ([`BEWERTUNG.m
 - Testbarkeit / Akzeptanzkriterien
 - Glossar
 - Formale Aspekte und roter Faden
+- *Korrektur: ungeprüfte KI-Generierung erkennbar (0 / −10 / −20, additiv)*
 
 **Säule 2: Architektur (100 Punkte)**
 - Grundlagen, Randbedingungen, Systemkontext / Abgrenzung, Lösungsstrategie
@@ -333,6 +334,7 @@ Die detaillierte Punktverteilung steht im **Bewertungs-Template** ([`BEWERTUNG.m
 - Querschnittliche Konzepte
 - **Architekturentscheidungen (ADRs)**
 - Formale Aspekte und roter Faden
+- *Korrektur: ungeprüfte KI-Generierung erkennbar (0 / −10 / −20, additiv)*
 
 **Säule 3: Implementierung & Präsentation (100 Punkte)**
 - Konformität zur Spezifikation
