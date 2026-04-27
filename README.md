@@ -312,10 +312,10 @@ Die detaillierte Punktverteilung steht im **Bewertungs-Template** (`BEWERTUNG.md
 - Formale Aspekte und roter Faden
 
 **Säule 2: Architektur (100 Punkte)**
-- Grundlagen, Randbedingungen, Kontextabgrenzung, Lösungsstrategie
-- Bausteinsicht (Komponenten)
-- Laufzeitsicht
-- Verteilungssicht
+- Grundlagen, Randbedingungen, Systemkontext / Abgrenzung, Lösungsstrategie
+- Komponentendarlegung
+- Laufzeitverhalten
+- Verteilung / Deployment
 - Querschnittliche Konzepte
 - **Architekturentscheidungen (ADRs)**
 - Formale Aspekte und roter Faden
@@ -323,12 +323,12 @@ Die detaillierte Punktverteilung steht im **Bewertungs-Template** (`BEWERTUNG.md
 **Säule 3: Implementierung & Präsentation (100 Punkte)**
 - Konformität zur Spezifikation
 - Konformität zur Architektur
-- Codequalität
+- **Tests / Qualitätssicherung** (Vorhandensein, Sinnhaftigkeit, Coverage Kern-Use-Cases)
 - **Git-Hygiene** (Conventional Commits, kontinuierliche Historie, Autoren-Diversität)
 - Dokumentation (Inbetriebnahme, Code)
-- Schwierigkeitsgrad (±5 Punkte Korrektur)
 - Präsentation (Gruppenvortrag)
 - **Code-Walkthrough (individuelle Verständnisfragen)**
+- *Korrektur Schwierigkeitsgrad (±5 Punkte, additiv)*
 
 ### 10.4 Code-Walkthrough
 
