@@ -200,9 +200,15 @@ Dokumentieren Sie **jede wesentliche Architekturentscheidung** als ADR (Architec
 
 Mindestens 3–5 ADRs werden erwartet (z.B. Programmiersprache, Persistenz, Frontend-Framework, Authentifizierung, Deployment). Generische Floskeln ohne echten Trade-off zählen nicht.
 
----
+### 6.3 Beispiel-Projekt zur Orientierung
 
-## 7. Konsistenz zwischen Spezifikation, Architektur und Code
+Als laufendes Beispiel dafür, **wie eine Spec nach Siedersleben und eine Architektur nach arc42 in einem realen Projekt aussehen können**, dient das Repository **Herold**:
+
+- Repository: <https://github.com/carstenlucke/herold>
+- Spezifikation (Siedersleben-Bausteine): `docs/spec/`
+- Architektur (arc42 + ADRs): `docs/arch/`
+
+> **Disclaimer:** Herold ist ein laufendes Projekt und **noch nicht abgeschlossen**. Die Dokumente entwickeln sich weiter und sind nicht in jedem Detail eine perfekte Vorlage. Sie zeigen aber den Stil, die Granularität und die Verzahnung von Spec, Architektur, ADRs und Code, die hier erwartet wird. Nicht 1:1 kopieren — als Inspiration nutzen.
 
 **Wichtigster Bewertungsaspekt.** Die drei Artefakte müssen aufeinander aufbauen:
 
