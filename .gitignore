@@ -37,3 +37,8 @@ Temporary Items
 # Office temp / lock files
 ~$*
 *.tmp
+
+# Internal-only (contains Moodle enrollment key)
+MOODLE.md
+moodle-qr.png
+MOODLE-ANKUENDIGUNG-*.rtf
