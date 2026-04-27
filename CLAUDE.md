@@ -8,20 +8,35 @@ Owner: Prof. Dr. Carsten Lucke. Repository is public; the README is the binding 
 
 ## 1. Files and their roles
 
+### Tracked (public)
+
 | File | Role | Audience |
 |---|---|---|
 | `README.md` | Course handbook (milestones, grading, git rules, AI policy) | students |
-| `BEWERTUNG.md` | Per-group grading template (one filled copy per project, kept locally) | Lucke (grading) |
+| `BEWERTUNG.md` | Per-group grading template (filled copies kept locally, never committed) | Lucke (grading) |
 | `TEAMINFO.md` | Template students copy into their own repo at M0+ | students |
-| `MOODLE-ANKUENDIGUNG-SS2026.html` | HTML announcement for Moodle (Moodle ignores Markdown here) | Moodle |
-| `.gitignore` | macOS / OneDrive / editor noise | – |
+| `MOODLE-ANKUENDIGUNG-SS2026.html` | HTML announcement for the Moodle forum (one-shot at semester start) | Moodle |
+| `MOODLE-INDEX-BLOCK-SS2026.html` | HTML text block for the Moodle course landing page (permanent pointer to this repo) | Moodle |
+| `.gitignore` | macOS / OneDrive / editor noise + secret files | – |
 | `.claude/commands/*` | local slash commands for Claude Code | Lucke |
+| `CLAUDE.md` | this file | Claude / Lucke |
+
+### Untracked (gitignored — local only, never push)
+
+| File | Reason |
+|---|---|
+| `MOODLE.md` | contains the Moodle enrollment key |
+| `moodle-qr.png` | QR code for the Moodle course URL (low risk, paired with key file) |
+
+### Referenced from README (external)
+
+- `https://github.com/carstenlucke/herold` — running example for Siedersleben spec + arc42 architecture (see `README.md` section 6.3, with disclaimer "work in progress").
 
 ---
 
 ## 2. Language rules
 
-- **Student-facing / user-facing documents** (`README.md`, `BEWERTUNG.md`, `TEAMINFO.md`, `MOODLE-ANKUENDIGUNG-*.html`): **always German**.
+- **Student-facing / user-facing documents** (`README.md`, `BEWERTUNG.md`, `TEAMINFO.md`, `MOODLE-*.html`, `MOODLE.md`): **always German**.
 - **Internal files** (`CLAUDE.md`, `.claude/**`): English is fine.
 - **Commit messages:** always English.
 - **Code/tool/CLI terms:** keep original (e.g. "Conventional Commits", "Git-Tag", "arc42").
@@ -41,6 +56,7 @@ The following documents must stay in sync. When you change one, update every pla
 ### 3.2 Milestones / dates
 - **Source of truth:** `README.md` section **3** ("Termine und Meilensteine für SS 2026").
 - **Mirror:** `MOODLE-ANKUENDIGUNG-SS2026.html` (overview list), as long as the announcement has not been posted yet.
+- `MOODLE-INDEX-BLOCK-SS2026.html` does not list dates (intentional — it is a permanent pointer to the repo, kept date-free so it does not go stale).
 - If a date changes after the announcement is already live in Moodle, post a separate correction announcement instead of silently rewriting the HTML.
 
 ### 3.3 TEAMINFO template
@@ -50,7 +66,22 @@ The following documents must stay in sync. When you change one, update every pla
 
 ### 3.4 Git rules
 - **Source of truth:** `README.md` section **8** ("Git-Repository — Anforderungen").
-- References in `MOODLE-ANKUENDIGUNG-SS2026.html` must remain compatible (Conventional Commits, tag-based submission, repo visibility).
+- References in `MOODLE-ANKUENDIGUNG-SS2026.html` and `MOODLE-INDEX-BLOCK-SS2026.html` must remain compatible (Conventional Commits, tag-based submission, repo visibility).
+
+---
+
+## 3a. Secrets / non-public material
+
+The repository is public. The following must **never** be committed:
+
+- **Moodle enrollment key** — kept only in the gitignored `MOODLE.md`. Anyone with the key can self-enroll, defeating access control. Never reference the actual key value in any tracked file.
+- **API keys, tokens, passwords**, `.env` files.
+- **Filled-in `BEWERTUNG.md` instances** (contain Matrikel-Nummern, grades, notes about individual students).
+- **Personal data** of students beyond what `TEAMINFO.md` schema allows publicly.
+
+Mechanism: `.gitignore` lists known secret files. When a new file with sensitive content is created, **add it to `.gitignore` before staging anything**, and verify with `git check-ignore <file>` that it is excluded.
+
+If a secret is accidentally committed: rotate the secret first (e.g. ask Moodle admin for a new enrollment key), then rewrite history. Do not just delete the file in a follow-up commit — the history still leaks it.
 
 ---
 
@@ -60,11 +91,10 @@ The following documents must stay in sync. When you change one, update every pla
 
 Concrete consequences for this repo:
 
-- `TEAMINFO.md` and the embedded template block in `README.md` must contain only the **minimum data** needed to identify the team (name, study program, role).
-- **Email addresses** in templates are **optional**, never mandatory. A single team contact is enough; individual members must not be forced to publish their THM email.
-- **Phone numbers** are not allowed in public templates.
-- **Matrikel-Nummern** are forbidden in any public file. The binding member list with Matrikel-Nummern is sent only via the M3 submission email to Lucke (`README.md` section 5.3).
-- **Git author identity in commits:** require only a stable author name (so contributions can be attributed). Do not require students to expose their THM email — GitHub's `noreply` email or any other personal email choice is acceptable.
+- **Public `TEAMINFO.md`** (and its embedded template block in `README.md` section 4) contains exactly three columns: **Name, Studiengang, Rolle** — nothing more. No emails, no phone numbers, no Matrikel-Nummern.
+- **Full member data is transmitted by email only.** The project lead emails the binding member list (Name, Matrikel-Nr., THM-Mail, Studiengang, Rolle) to Lucke at **M0+** at the latest, and updates it via the M3 submission email if anything changed.
+- **Phone numbers** are not collected.
+- **Git author identity in commits:** require only a stable, attribute-able author name. Students freely choose which email they configure on their commits — we do not mandate a specific address.
 - `BEWERTUNG.md` has columns for Matrikel-Nr and individual notes. Filled-in instances are kept **locally** in Lucke's grade archive, never committed to this public repo or to any student repo.
 
 When changing any student-facing rule, ask: *Does this force a student to publish data they could legitimately keep private?* If yes, soften the requirement.
@@ -94,6 +124,7 @@ Before committing any content change, walk through:
 - [ ] Section numbering in `README.md` contiguous and cross-references correct?
 - [ ] Privacy: no Matrikel-Nr / phone in public templates? Email handled as optional (single team contact is enough)?
 - [ ] No requirement on students forces them to publish personal data?
+- [ ] Secrets / non-public material: anything new with credentials, enrollment keys, filled grades? → add to `.gitignore` **before** staging, verify with `git check-ignore`.
 - [ ] Commit message in English, Conventional Commits format?
 
 ---

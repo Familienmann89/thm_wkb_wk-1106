@@ -50,9 +50,13 @@ Bis zum **M0+-Termin (Fr, 15. Mai 2026)** legen Sie folgendes Dokument **im Wurz
 - **Dateiname:** `TEAMINFO.md`
 - **Format:** Markdown, nach folgendem Template (Stub einfach übernehmen, ausfüllen, committen)
 
-Zusätzlich schickt der/die Projektleiter:in eine kurze Mail an den Betreuer mit:
+Zusätzlich schickt der/die Projektleiter:in eine Mail an den Betreuer mit:
+
 - Repository-URL (HTTPS, klickbar)
-- Bestätigung, dass `TEAMINFO.md` ausgefüllt eingecheckt ist
+- Bestätigung, dass die öffentliche `TEAMINFO.md` (nur Name/Studiengang/Rolle) im Repo eingecheckt ist
+- **Vollständige Mitgliederliste** (Name, Matrikel-Nr., THM-E-Mail, Studiengang, Rolle) — als Tabelle im Mail-Body oder als angehängte ausgefüllte Variante der `TEAMINFO.md`. Diese gehört **nicht** ins öffentliche Repo.
+
+Bei Änderungen am Team (Beitritt/Austritt) wird die Liste spätestens mit der M3-Abgabe-Mail aktualisiert.
 
 ### Template `TEAMINFO.md`
 
@@ -75,9 +79,7 @@ Zusätzlich schickt der/die Projektleiter:in eine kurze Mail an den Betreuer mit
 | Erika Musterfrau | WI B.Sc. | Software Architect |
 | … | … | … |
 
-**Team-Kontakt (für die Veranstaltungsorganisation):** _<THM-Mail der/des Projektleiter:in>_
-
-> **Datenschutz-Hinweis:** Bei einem **öffentlichen** Repository werden hier weder Matrikel-Nummern noch persönliche Telefonnummern veröffentlicht. Die individuellen E-Mail-Adressen der Mitglieder müssen ebenfalls **nicht** publiziert werden — eine einzige Team-Kontakt-Adresse (z.B. THM-Mail der Projektleitung) reicht. Die verbindliche Mitgliederliste mit Matrikel-Nummern wird per Mail im Rahmen der M3-Abgabe an den Betreuer übermittelt.
+> **Datenschutz-Hinweis:** Im öffentlichen Repository erscheinen hier ausschließlich Name, Studiengang und Rolle. **Keine** Matrikel-Nummern, **keine** privaten Telefonnummern, **keine** individuellen E-Mail-Adressen. Die **vollständige Mitgliederliste** mit Matrikel-Nummern und THM-E-Mails wird durch die/den Projektleiter:in **per Mail** an den Betreuer übermittelt — spätestens zu **M0+**, bei Änderungen aktualisiert spätestens zur **M3**-Abgabe.
 
 **Rollen-Empfehlung (frei änderbar):** Projektleiter:in, Software Architect, Spec/Requirements Lead, Implementation Lead, QA/Test Lead, DevOps/Build Lead.
 
@@ -142,7 +144,7 @@ Mail an den Betreuer **bis zur M3-Deadline** mit folgenden Angaben:
 - Repository-URL (HTTPS, klickbar)
 - Tag-Name (z.B. `v1.0.0`)
 - Commit-SHA (7 Zeichen reichen, z.B. `a1b2c3d`)
-- **Verbindliche Mitgliederliste mit Matrikel-Nummern** (Name, Matrikel-Nr., E-Mail) — diese gehört nicht ins öffentliche Repo, sondern ausschließlich in diese Mail.
+- **Mitgliederliste** (Name, Matrikel-Nr., THM-E-Mail, Studiengang, Rolle) — entweder erstmalige Übermittlung oder, falls bereits zu M0+ geschickt und seitdem unverändert, kurze Bestätigung „Liste vom <Datum> weiterhin gültig". Bei Änderungen: aktualisierte Version. **Niemals** ins öffentliche Repo.
 - Optional: Link zum GitHub-/GitLab-Release
 
 ### 5.4 Tagging der Meilensteine M1 und M2 (empfohlen)
@@ -253,7 +255,7 @@ refactor(api): extract validation into middleware
 ### 8.3 Kontinuierliche Historie
 
 - Commits über die gesamte Projektlaufzeit verteilt — **nicht ein Big-Bang-Push am Abgabetag**.
-- Mehrere Autoren in der Historie sichtbar — jedes Gruppenmitglied committet unter einem **konsistenten, eindeutig zuordenbaren Git-Namen**, sodass Beiträge zugeordnet werden können. Welche E-Mail-Adresse Sie für Ihre Commits verwenden (THM-Mail, private Mail, GitHub-`noreply`-Adresse), bleibt Ihnen überlassen.
+- Mehrere Autoren in der Historie sichtbar — jedes Gruppenmitglied committet unter einem **konsistenten, eindeutig zuordenbaren Git-Namen**, sodass Beiträge zugeordnet werden können. Welche E-Mail-Adresse Sie als Commit-Autor:in hinterlegen, bleibt Ihnen überlassen.
 - Branches und Pull/Merge Requests sind willkommen, aber nicht zwingend.
 
 Eine Abgabe mit nur wenigen Commits oder nur einem Autor wird als **Indiz für externe Komplettentwicklung (z.B. Bolt, Lovable, v0)** gewertet und führt zu deutlichem Punktabzug in Säule 3 — bis hin zum Nicht-Bestehen, wenn der Code-Walkthrough zeigt, dass die Gruppe das System nicht selbst verstanden und gebaut hat.

@@ -16,9 +16,7 @@
 | Erika Musterfrau | WI B.Sc. | Software Architect |
 | … | … | … |
 
-**Team-Kontakt (für die Veranstaltungsorganisation):** _<THM-Mail der/des Projektleiter:in>_
-
-> **Datenschutz-Hinweis:** Bei einem **öffentlichen** Repository werden hier weder Matrikel-Nummern noch persönliche Telefonnummern veröffentlicht. Die individuellen E-Mail-Adressen der Mitglieder müssen ebenfalls **nicht** publiziert werden — eine einzige Team-Kontakt-Adresse (z.B. THM-Mail der Projektleitung) reicht. Die verbindliche Mitgliederliste mit Matrikel-Nummern wird per Mail im Rahmen der M3-Abgabe (Repository-URL + Tag) durch die/den Projektleiter:in an den Betreuer übermittelt.
+> **Datenschutz-Hinweis:** Im öffentlichen Repository erscheinen hier ausschließlich Name, Studiengang und Rolle. **Keine** Matrikel-Nummern, **keine** privaten Telefonnummern, **keine** individuellen E-Mail-Adressen. Die **vollständige Mitgliederliste** mit Matrikel-Nummern und THM-E-Mails wird durch die/den Projektleiter:in **per Mail** an den Betreuer übermittelt — spätestens zu **M0+**, bei Änderungen aktualisiert spätestens zur **M3**-Abgabe.
 
 **Rollen-Empfehlung (frei änderbar):** Projektleiter:in, Software Architect, Spec/Requirements Lead, Implementation Lead, QA/Test Lead, DevOps/Build Lead.
 
