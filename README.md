@@ -27,7 +27,7 @@ Fehlt einer der notwendigen Scheine, ist die Teilnahme nicht möglich.
 
 ---
 
-## 3. Termine und Meilensteine
+## 3. Termine und Meilensteine für Durchführung in Sommersemester (SS) 2026
 
 | Meilenstein | Inhalt | Termin |
 |---|---|---|
