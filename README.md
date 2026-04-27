@@ -299,7 +299,7 @@ Das soll verhindern, dass eine sehr gute Spec eine fehlende Implementierung komp
 
 ### 10.3 Bewertungskriterien je Säule (Übersicht)
 
-Die detaillierte Punktverteilung steht im **Bewertungs-Template** (`BEWERTUNG.md` im Repo). Hier die wichtigsten Kriterien:
+Die detaillierte Punktverteilung steht im **Bewertungs-Template** ([`BEWERTUNG.md`](BEWERTUNG.md)). Hier die wichtigsten Kriterien:
 
 **Säule 1: Spezifikation (100 Punkte)**
 - Grundlagen (Ziele, Kontext, Stakeholder)
