@@ -10,11 +10,13 @@
 
 ## Team
 
-| Name | Matrikel-Nr. | Studiengang | Rolle | E-Mail (THM) | Telefon (optional) |
-|---|---|---|---|---|---|
-| Max Mustermann | 1234567 | WI B.Sc. | Projektleiter:in | max.mustermann@mnd.thm.de | – |
-| Erika Musterfrau | 1234568 | WI B.Sc. | Software Architect | … | – |
-| … | … | … | … | … | – |
+| Name | Studiengang | Rolle | E-Mail (THM) |
+|---|---|---|---|
+| Max Mustermann | WI B.Sc. | Projektleiter:in | max.mustermann@mnd.thm.de |
+| Erika Musterfrau | WI B.Sc. | Software Architect | … |
+| … | … | … | … |
+
+> **Datenschutz-Hinweis:** Bei einem **öffentlichen** Repository werden hier **keine Matrikel-Nummern** veröffentlicht. Die finale Mitgliederliste mit Matrikel-Nummern wird per Mail im Rahmen der M3-Abgabe (Repository-URL + Tag) durch die/den Projektleiter:in an den Betreuer übermittelt.
 
 **Rollen-Empfehlung (frei änderbar):** Projektleiter:in, Software Architect, Spec/Requirements Lead, Implementation Lead, QA/Test Lead, DevOps/Build Lead.
 

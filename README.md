@@ -69,11 +69,13 @@ Zusätzlich schickt der/die Projektleiter:in eine kurze Mail an den Betreuer mit
 
 ## Team
 
-| Name | Matrikel-Nr. | Studiengang | Rolle | E-Mail (THM) | Telefon (optional) |
-|---|---|---|---|---|---|
-| Max Mustermann | 1234567 | WI B.Sc. | Projektleiter:in | max.mustermann@mnd.thm.de | – |
-| Erika Musterfrau | 1234568 | WI B.Sc. | Software Architect | … | – |
-| … | … | … | … | … | – |
+| Name | Studiengang | Rolle | E-Mail (THM) |
+|---|---|---|---|
+| Max Mustermann | WI B.Sc. | Projektleiter:in | max.mustermann@mnd.thm.de |
+| Erika Musterfrau | WI B.Sc. | Software Architect | … |
+| … | … | … | … |
+
+> **Datenschutz-Hinweis:** Bei einem **öffentlichen** Repository werden hier **keine Matrikel-Nummern** veröffentlicht. Die finale Mitgliederliste mit Matrikel-Nummern wird per Mail im Rahmen der M3-Abgabe an den Betreuer übermittelt.
 
 **Rollen-Empfehlung (frei änderbar):** Projektleiter:in, Software Architect, Spec/Requirements Lead, Implementation Lead, QA/Test Lead, DevOps/Build Lead.
 
@@ -138,6 +140,7 @@ Mail an den Betreuer **bis zur M3-Deadline** mit folgenden Angaben:
 - Repository-URL (HTTPS, klickbar)
 - Tag-Name (z.B. `v1.0.0`)
 - Commit-SHA (7 Zeichen reichen, z.B. `a1b2c3d`)
+- **Verbindliche Mitgliederliste mit Matrikel-Nummern** (Name, Matrikel-Nr., E-Mail) — diese gehört nicht ins öffentliche Repo, sondern ausschließlich in diese Mail.
 - Optional: Link zum GitHub-/GitLab-Release
 
 ### 5.4 Tagging der Meilensteine M1 und M2 (empfohlen)
