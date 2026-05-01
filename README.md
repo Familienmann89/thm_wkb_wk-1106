@@ -113,7 +113,7 @@ Bei Änderungen am Team (Beitritt/Austritt) wird die Liste spätestens mit der M
 
 1. **Spezifikationsdokument** (Markdown)
 2. **SW-Architekturbeschreibung** (Markdown)
-3. **Installations- und Inbetriebnahmeanweisung** (Markdown; kann Bestandteil der Architektur sein)
+3. **Installations- und Inbetriebnahmeanweisung** (Markdown im Repo, z.B. als Top-Level `INSTALL.md` oder unter `docs/install.md`)
 4. **Quellcode** der lauffähigen Endversion im Repository (siehe Abschnitt 8)
 
 **Hinweise zum Format:**
