@@ -111,15 +111,15 @@ Bei Änderungen am Team (Beitritt/Austritt) wird die Liste spätestens mit der M
 
 ### 5.1 Inhalte
 
-1. **Spezifikationsdokument** (PDF oder Markdown)
-2. **SW-Architekturbeschreibung** (PDF oder Markdown)
-3. **Installations- und Inbetriebnahmeanweisung** (PDF oder Markdown; kann Bestandteil der Architektur sein)
+1. **Spezifikationsdokument** (Markdown)
+2. **SW-Architekturbeschreibung** (Markdown)
+3. **Installations- und Inbetriebnahmeanweisung** (Markdown; kann Bestandteil der Architektur sein)
 4. **Quellcode** der lauffähigen Endversion im Repository (siehe Abschnitt 8)
 
 **Hinweise zum Format:**
-- Markdown-Dokumente können direkt im Repository liegen (z.B. `docs/spec/`, `docs/arch/`). Eingebettete Diagramme als PNG/SVG mit Quelltext (PlantUML, Mermaid) im Repo.
-- PDF-Dokumente bei der Abgabe per Mail beilegen oder im Repo unter `docs/` ablegen.
-- Mischen erlaubt (z.B. Spec als Markdown, Architektur als PDF).
+- Spezifikation und Architektur sind als **Markdown** im Repository abzulegen (z.B. `docs/spec/`, `docs/arch/`) — kein PDF. Markdown ist diff-bar, review-fähig und versionierbar; PDF ist es nicht.
+- Eingebettete Diagramme als PNG/SVG **mit Quelltext** (PlantUML, Mermaid) im Repo, sodass Diagramme reproduzierbar bleiben.
+- Mermaid-Diagramme können direkt in Markdown-Codeblöcken stehen und werden von GitHub/GitLab gerendert.
 
 ### 5.2 Abgabe per Git-Tag (verbindlich)
 
