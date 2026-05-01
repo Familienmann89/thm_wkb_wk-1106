@@ -344,6 +344,7 @@ Die detaillierte Punktverteilung steht im **Bewertungs-Template** ([`BEWERTUNG.m
 - Dokumentation (Inbetriebnahme, Code)
 - Präsentation (Gruppenvortrag)
 - **Code-Walkthrough (individuelle Verständnisfragen)**
+- *Korrektur: ungeprüfte KI-Generierung erkennbar (0 / −10 / −20, additiv)*
 - *Korrektur Schwierigkeitsgrad (±5 Punkte, additiv)*
 
 ### 10.4 Code-Walkthrough

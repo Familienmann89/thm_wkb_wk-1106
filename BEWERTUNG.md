@@ -63,13 +63,13 @@
 | Randbedingungen | 5 |  |  |
 | Systemkontext / Abgrenzung | 5 |  |  |
 | Lösungsstrategie | 5 |  |  |
-| Komponentendarlegung | 20 |  |  |
-| Laufzeitverhalten | 15 |  |  |
+| Komponentendarlegung | 15 |  |  |
+| Laufzeitverhalten | 10 |  |  |
 | Verteilung / Deployment | 10 |  |  |
 | Querschnittliche Konzepte | 15 |  |  |
 | Architekturentscheidungen (ADRs) | 10 |  |  |
-| Formale Aspekte (Verzeichnisse, Quellen, etc.) | 5 |  |  |
-| Aufbau / roter Faden | 5 |  |  |
+| Formale Aspekte (Verzeichnisse, Quellen, etc.) | 10 |  |  |
+| Aufbau / roter Faden | 10 |  |  |
 | **Summe ARCH** | **100** | **____** |  |
 | Korrektur: ungeprüfte KI-Generierung erkennbar (0 / −10 / −20) | −20 |  |  |
 | **Summe ARCH inkl. Korrektur** |  | **____** |  |
@@ -89,14 +89,24 @@
 |---|---:|---:|---|
 | Konformität zu SPEC | 10 |  |  |
 | Konformität zu ARCH | 10 |  |  |
-| Tests / Qualitätssicherung (Vorhandensein, Sinnhaftigkeit, Coverage Kern-Use-Cases) | 15 |  |  |
+| Tests / Qualitätssicherung (Vorhandensein, Sinnhaftigkeit, Coverage Kern-Use-Cases) | 10 |  |  |
 | Git-Hygiene (Conventional Commits, kontinuierliche Historie, Autoren-Diversität) | 10 |  |  |
 | Dokumentation (Inbetriebnahme, Code) | 10 |  |  |
 | Präsentation (Gruppenvortrag) | 15 |  |  |
-| Code-Walkthrough (individuelle Verständnisfragen) | 30 |  |  |
+| Code-Walkthrough (individuelle Verständnisfragen) | 35 |  |  |
 | **Summe IMPL/PRÄS** | **100** | **____** |  |
+| Korrektur: ungeprüfte KI-Generierung erkennbar (0 / −10 / −20) | −20 |  |  |
 | Korrektur Schwierigkeitsgrad (−5 / 0 / +5) | ±5 |  |  |
-| **Summe IMPL/PRÄS inkl. Korrektur** |  | **____** |  |
+| **Summe IMPL/PRÄS inkl. Korrekturen** |  | **____** |  |
+
+> Hinweis ungeprüfte KI-Generierung: Abzug, wenn Code, Tests oder Dokumentation offensichtlich KI-generiert sind und keine erkennbare Sorgfalt, Prüfung oder Überarbeitung erfolgt ist. Typische Symptome:
+> - **Code:** generische Variablennamen ohne Domänenbezug (`data`, `result`, `temp`); unbenutzte Imports oder unerreichbarer Code; halluzinierte API- oder Methodenaufrufe (existieren in der genutzten Library nicht); widersprüchliche Patterns innerhalb desselben Moduls (mal Stream, mal for-Loop, mal Recursion ohne Grund); duplizierte Hilfsfunktionen, die sich gegenseitig nicht kennen
+> - **Tests:** Tests, die nichts Substanzielles prüfen (`assertTrue(true)`, `assertNotNull` bei Konstanten); Test-Namen ohne Bezug zu fachlichen Use Cases; Mocks, die das Mock selbst testen statt der Logik; durchgängig grüne Tests trotz offensichtlicher Bugs im Code
+> - **Boilerplate-Kommentare:** Zeilen wie `// erhöht den Zähler` über `counter++`, oder Doc-Kommentare, die nur den Methodennamen wiederholen
+> - **Doku/README:** generische Floskeln ohne Projektbezug; Inbetriebnahme-Anleitung passt nicht zum tatsächlichen Setup; widersprüchliche Befehle/Pfade
+> - **Inkonsistenzen:** Sprache wechselt willkürlich zwischen Englisch und Deutsch; Code-Style-Brüche zwischen Modulen ohne Begründung
+>
+> Skala: 0 = unauffällig, −10 = deutliche Anzeichen in Teilen des Codes/der Tests/der Doku, −20 = durchgängig ohne Eigenleistung. Greift unabhängig von der Disclosure-Pflicht (Abschnitt 9.1 README) und unabhängig vom Code-Walkthrough (dort wird Verständnis individuell geprüft).
 
 > Hinweis Schwierigkeitsgrad: additiv. −5 bei trivialer Aufgabe, 0 bei normalem Umfang, +5 bei überdurchschnittlicher Komplexität.
 
