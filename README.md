@@ -339,7 +339,6 @@ Die detaillierte Punktverteilung steht im **Bewertungs-Template** ([`BEWERTUNG.m
 **Säule 3: Implementierung & Präsentation (100 Punkte)**
 - Konformität zur Spezifikation
 - Konformität zur Architektur
-- **Tests / Qualitätssicherung** (Vorhandensein, Sinnhaftigkeit, Coverage Kern-Use-Cases)
 - **Git-Hygiene** (Conventional Commits, kontinuierliche Historie, Autoren-Diversität)
 - Dokumentation (Inbetriebnahme, Code)
 - Präsentation (Gruppenvortrag)

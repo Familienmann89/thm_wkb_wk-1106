@@ -89,11 +89,10 @@
 |---|---:|---:|---|
 | Konformität zu SPEC | 10 |  |  |
 | Konformität zu ARCH | 10 |  |  |
-| Tests / Qualitätssicherung (Vorhandensein, Sinnhaftigkeit, Coverage Kern-Use-Cases) | 10 |  |  |
 | Git-Hygiene (Conventional Commits, kontinuierliche Historie, Autoren-Diversität) | 10 |  |  |
 | Dokumentation (Inbetriebnahme, Code) | 10 |  |  |
-| Präsentation (Gruppenvortrag) | 15 |  |  |
-| Code-Walkthrough (individuelle Verständnisfragen) | 35 |  |  |
+| Präsentation (Gruppenvortrag) | 20 |  |  |
+| Code-Walkthrough (individuelle Verständnisfragen) | 40 |  |  |
 | **Summe IMPL/PRÄS** | **100** | **____** |  |
 | Korrektur: ungeprüfte KI-Generierung erkennbar (0 / −10 / −20) | −20 |  |  |
 | Korrektur Schwierigkeitsgrad (−5 / 0 / +5) | ±5 |  |  |
