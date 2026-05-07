@@ -10,13 +10,15 @@
 
 ## Team
 
-| Name | Studiengang | Rolle |
-|---|---|---|
-| Max Mustermann | WI B.Sc. | Projektleiter:in |
-| Erika Musterfrau | WI B.Sc. | Software Architect |
-| … | … | … |
+| Name | Studiengang | Rolle | Git-Handle (optional) |
+|---|---|---|---|
+| Max Mustermann | WI B.Sc. | Projektleiter:in | — |
+| Erika Musterfrau | WI B.Sc. | Software Architect | GitHub: `erika-m` |
+| … | … | … | … |
 
-> **Datenschutz-Hinweis:** Im öffentlichen Repository erscheinen hier ausschließlich Name, Studiengang und Rolle. **Keine** Matrikel-Nummern, **keine** privaten Telefonnummern, **keine** individuellen E-Mail-Adressen. Die **vollständige Mitgliederliste** mit Matrikel-Nummern und THM-E-Mails wird durch die/den Projektleiter:in **per Mail** an den Betreuer übermittelt — spätestens zu **M0+**, bei Änderungen aktualisiert spätestens zur **M3**-Abgabe.
+> **Spalte „Git-Handle" (optional):** Nur ausfüllen, wenn die Git-Commit-Identität nicht auf den Klarnamen gesetzt ist und Commits unter einem Plattform-Username (GitHub/GitLab) laufen. Damit bleibt die Zuordnung Commit → Person nachvollziehbar. Details und Alternativen: [`tutorials/git-identity.md`](tutorials/git-identity.md).
+
+> **Datenschutz-Hinweis:** Im öffentlichen Repository erscheinen hier ausschließlich Name, Studiengang, Rolle und (optional) der ohnehin öffentliche Git-Plattform-Handle. **Keine** Matrikel-Nummern, **keine** privaten Telefonnummern, **keine** individuellen E-Mail-Adressen. Die **vollständige Mitgliederliste** mit Matrikel-Nummern und THM-E-Mails wird durch die/den Projektleiter:in **per Mail** an den Betreuer übermittelt — spätestens zu **M0+**, bei Änderungen aktualisiert spätestens zur **M3**-Abgabe.
 
 **Rollen-Empfehlung (frei änderbar):** Projektleiter:in, Software Architect, Spec/Requirements Lead, Implementation Lead, QA/Test Lead, DevOps/Build Lead.
 

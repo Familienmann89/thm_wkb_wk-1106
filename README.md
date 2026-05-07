@@ -73,13 +73,15 @@ Bei Änderungen am Team (Beitritt/Austritt) wird die Liste spätestens mit der M
 
 ## Team
 
-| Name | Studiengang | Rolle |
-|---|---|---|
-| Max Mustermann | WI B.Sc. | Projektleiter:in |
-| Erika Musterfrau | WI B.Sc. | Software Architect |
-| … | … | … |
+| Name | Studiengang | Rolle | Git-Handle (optional) |
+|---|---|---|---|
+| Max Mustermann | WI B.Sc. | Projektleiter:in | — |
+| Erika Musterfrau | WI B.Sc. | Software Architect | GitHub: `erika-m` |
+| … | … | … | … |
 
-> **Datenschutz-Hinweis:** Im öffentlichen Repository erscheinen hier ausschließlich Name, Studiengang und Rolle. **Keine** Matrikel-Nummern, **keine** privaten Telefonnummern, **keine** individuellen E-Mail-Adressen. Die **vollständige Mitgliederliste** mit Matrikel-Nummern und THM-E-Mails wird durch die/den Projektleiter:in **per Mail** an den Betreuer übermittelt — spätestens zu **M0+**, bei Änderungen aktualisiert spätestens zur **M3**-Abgabe.
+> **Spalte „Git-Handle" (optional):** Nur ausfüllen, wenn die Git-Commit-Identität nicht auf den Klarnamen gesetzt ist und Commits unter einem Plattform-Username (GitHub/GitLab) laufen. Damit bleibt die Zuordnung Commit → Person nachvollziehbar. Details und Alternativen: [`tutorials/git-identity.md`](tutorials/git-identity.md).
+
+> **Datenschutz-Hinweis:** Im öffentlichen Repository erscheinen hier ausschließlich Name, Studiengang, Rolle und (optional) der ohnehin öffentliche Git-Plattform-Handle. **Keine** Matrikel-Nummern, **keine** privaten Telefonnummern, **keine** individuellen E-Mail-Adressen. Die **vollständige Mitgliederliste** mit Matrikel-Nummern und THM-E-Mails wird durch die/den Projektleiter:in **per Mail** an den Betreuer übermittelt — spätestens zu **M0+**, bei Änderungen aktualisiert spätestens zur **M3**-Abgabe.
 
 **Rollen-Empfehlung (frei änderbar):** Projektleiter:in, Software Architect, Spec/Requirements Lead, Implementation Lead, QA/Test Lead, DevOps/Build Lead.
 
@@ -257,7 +259,7 @@ refactor(api): extract validation into middleware
 ### 8.3 Kontinuierliche Historie
 
 - Commits über die gesamte Projektlaufzeit verteilt — **nicht ein Big-Bang-Push am Abgabetag**.
-- Mehrere Autoren in der Historie sichtbar — jedes Gruppenmitglied committet unter einem **konsistenten, eindeutig zuordenbaren Git-Namen**, sodass Beiträge zugeordnet werden können. Welche E-Mail-Adresse Sie als Commit-Autor:in hinterlegen, bleibt Ihnen überlassen.
+- Mehrere Autoren in der Historie sichtbar — jedes Gruppenmitglied committet unter einem **konsistenten, eindeutig zuordenbaren Git-Namen**, sodass Beiträge zugeordnet werden können. Welche E-Mail-Adresse Sie als Commit-Autor:in hinterlegen, bleibt Ihnen überlassen. Anleitung zum Einrichten: [tutorials/git-identity.md](tutorials/git-identity.md).
 - Branches und Pull/Merge Requests sind willkommen, aber nicht zwingend.
 
 Eine Abgabe mit nur wenigen Commits oder nur einem Autor wird als **Indiz für externe Komplettentwicklung (z.B. Bolt, Lovable, v0)** gewertet und führt zu deutlichem Punktabzug in Säule 3 — bis hin zum Nicht-Bestehen, wenn der Code-Walkthrough zeigt, dass die Gruppe das System nicht selbst verstanden und gebaut hat.
