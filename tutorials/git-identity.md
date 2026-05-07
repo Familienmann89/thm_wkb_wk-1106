@@ -12,14 +12,14 @@ Einmal pro Rechner im geklonten Projektordner ausführen:
 
 ```bash
 git config user.name  "Vorname Nachname"
-git config user.email "vorname.nachname@mni.thm.de"
+git config user.email "vorname.nachname@mnd.thm.de"
 ```
 
 Wer das **systemweit** für alle Repositories setzen möchte (statt nur projektlokal):
 
 ```bash
 git config --global user.name  "Vorname Nachname"
-git config --global user.email "vorname.nachname@mni.thm.de"
+git config --global user.email "vorname.nachname@mnd.thm.de"
 ```
 
 - Wirkt **ab dem nächsten Commit**.
