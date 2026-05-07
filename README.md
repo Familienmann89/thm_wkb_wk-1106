@@ -241,6 +241,8 @@ Bei Beginn des Projekts den Repository-Link per Mail an den Betreuer senden — 
 
 Verbindlich für alle Commit-Messages: **Conventional Commits** (https://www.conventionalcommits.org/de/v1.0.0/).
 
+Einsteiger-Guide in diesem Repo: [tutorials/conventional-commits.md](tutorials/conventional-commits.md).
+
 Cheatsheet: https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13
 
 Beispiele:
