@@ -2,7 +2,7 @@
 
 ## Projekttitel
 
-<Kurzer, prägnanter Titel des Projekts>
+<elo >
 
 ## Kurzbeschreibung
 
