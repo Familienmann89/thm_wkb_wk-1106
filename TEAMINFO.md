@@ -2,19 +2,21 @@
 
 ## Projekttitel
 
-<Kurzer, prägnanter Titel des Projekts>
+Pizza Tracker 
 
 ## Kurzbeschreibung
 
-<2–4 Sätze: Was soll die Software leisten? Für wen? Welches Problem löst sie?>
+„Pizza Tracker“ ist eine Software, mit der Nutzer ihre eigene Pizza individuell zusammenstellen und gleichzeitig die Kalorien der Zutaten berechnen können. Die Anwendung richtet sich an Menschen, die Spaß am Gestalten ihrer Pizza haben und dabei ihre Ernährung im Blick behalten möchten. Sie löst das Problem, dass viele Menschen den Überblick über Kalorien und Zutaten verlieren, indem alle Informationen direkt angezeigt werden.
 
 ## Team
 
 | Name | Studiengang | Rolle | Git-Handle (optional) |
 |---|---|---|---|
-| Max Mustermann | WI B.Sc. | Projektleiter:in | — |
-| Erika Musterfrau | WI B.Sc. | Software Architect | GitHub: `erika-m` |
-| … | … | … | … |
+| Ramon Fernandez-Tascon | WI B.Sc. | Projektleiter:in | 
+| Ugur Koekser | WI B.Sc. | Software Architect |  
+| Mrtasa Shams| WI B.Sc. | Implementation Lead | … |
+| Mahin Hossain| WI B.Sc. | DevOps/Build Lead |
+| Burak Gül | WI B.Sc. | QA/Test Lead |
 
 > **Spalte „Git-Handle" (optional):** Nur ausfüllen, wenn die Git-Commit-Identität nicht auf den Klarnamen gesetzt ist und Commits unter einem Plattform-Username (GitHub/GitLab) laufen. Damit bleibt die Zuordnung Commit → Person nachvollziehbar. Details und Alternativen: [`tutorials/git-identity.md`](tutorials/git-identity.md).
 
